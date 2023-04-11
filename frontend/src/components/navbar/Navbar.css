@@ -1,0 +1,32 @@
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #F8F8F8; /* change background color to a light gray */
+  border-bottom: 1px solid #D9D9D9; /* add a subtle border */
+}
+
+#nav-bar .balance {
+  color: #444444; /* change font color to a darker gray */
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+#nav-bar .links {
+  display: flex;
+  gap: 20px;
+}
+
+#nav-bar .links a {
+  color: #444444; /* change font color to a darker gray */
+  font-size: 16px; /* decrease font size for a more elegant look */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#nav-bar .links a:hover {
+  color: #0077B5; /* change hover color to a darker blue */
+  text-decoration: underline; /* add an underline on hover for emphasis */
+}

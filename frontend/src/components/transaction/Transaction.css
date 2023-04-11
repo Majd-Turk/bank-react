@@ -1,0 +1,68 @@
+#transaction {
+    margin: 30px;
+    border: solid 1px #ccc;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  #transaction .vendor {
+    margin: 10px;
+    font-size: 2vw;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  #transaction .deposit {
+    margin: 10px;
+    font-size: 2vw;
+    color: green;
+    font-weight: bold;
+  }
+  
+  #transaction .withdraw {
+    margin: 10px;
+    font-size: 2vw;
+    color: red;
+    font-weight: bold;
+  }
+  
+  #transaction .category {
+    margin: 10px;
+    font-size: 2vw;
+    color: #666;
+  }
+  
+  #transaction .delete-withdraw {
+    margin: 10px;
+    font-size: 2vw;
+    background-color: #ff5f5f;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #transaction .delete-withdraw:hover {
+    background-color: #f44336;
+  }
+  
+  #transaction .delete-deposit {
+    margin: 10px;
+    font-size: 2vw;
+    background-color: #72d572;
+    border: none;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #transaction .delete-deposit:hover {
+    background-color: #4caf50;
+  }
+  

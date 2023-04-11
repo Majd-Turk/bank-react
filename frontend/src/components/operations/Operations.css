@@ -1,0 +1,54 @@
+#operations-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#operations-container form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: min(400px, 70%);
+  border: 2px solid #ddd;
+  padding: 30px 50px 70px 50px;
+  border-radius: 50px;
+  background-color: #f5f5f5;
+  margin-top: 20px;
+}
+
+#operations-container form .title{
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 2.5rem;
+  color: #555;
+}
+
+#operations-container form input{
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 3px solid #ccc;
+  width: calc(100% - 20px);
+  text-align: center;
+  color: #555;
+}
+
+#operations-container form button {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  background-color: #bbb;
+  cursor: pointer;
+}
+
+#operations-container form button:hover {
+  background-color: #999;
+}
